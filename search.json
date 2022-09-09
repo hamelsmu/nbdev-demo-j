@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-demo-j",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev-demo-j",
+    "section": "Install",
+    "text": "Install\npip install nbdev_demo_j"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-demo-j",
+    "section": "How to use",
+    "text": "How to use\nHere is how you use this!\n\nfrom nbdev_demo_j.card import Card\n\n\nCard(3,10)\n\n10♠️"
+  },
+  {
+    "objectID": "card.html",
+    "href": "card.html",
+    "title": "Card",
+    "section": "",
+    "text": "source\n\nCard\n\n Card (suit:int, rank:int)\n\nA playing card\n\n\n\n\nType\nDetails\n\n\n\n\nsuit\nint\nAn index into suits\n\n\nrank\nint\nAn index into ranks\n\n\n\nYou can create a playing card like this:\n\nCard(1,2)\n\n2♦️\n\n\nYou can compare cards like this\n\nassert Card(1,11) > Card(1,2)\nCard(1,11)\n\nJ♦️\n\n\nThe equality comparison works as well:\n\nassert Card(1,11) == Card(1,11)"
+  },
+  {
+    "objectID": "deck.html",
+    "href": "deck.html",
+    "title": "Deck of Cards",
+    "section": "",
+    "text": "source\n\nDeck\n\n Deck ()\n\nA deck of 52 cards, not including jokers\nThis is a deck of cards\n\nDeck()\n\nA♣️; 2♣️; 3♣️; 4♣️; 5♣️; 6♣️; 7♣️; 8♣️; 9♣️; 10♣️; J♣️; Q♣️; K♣️; A♦️; 2♦️; 3♦️; 4♦️; 5♦️; 6♦️; 7♦️; 8♦️; 9♦️; 10♦️; J♦️; Q♦️; K♦️; A❤️; 2❤️; 3❤️; 4❤️; 5❤️; 6❤️; 7❤️; 8❤️; 9❤️; 10❤️; J❤️; Q❤️; K❤️; A♠️; 2♠️; 3♠️; 4♠️; 5♠️; 6♠️; 7♠️; 8♠️; 9♠️; 10♠️; J♠️; Q♠️; K♠️\n\n\nHi this how you shuffle stuff\n\nd = Deck()\nd.shuffle()\nd\n\nA♦️; 10♠️; A❤️; J❤️; A♣️; 2♦️; 10❤️; Q♦️; 8♣️; 9❤️; 6♠️; K♦️; 6♦️; 3♣️; 7♦️; 8❤️; 4♦️; 10♦️; 3♦️; 9♠️; 7♠️; A♠️; J♣️; 2♣️; K♠️; 6♣️; 6❤️; 4❤️; 2❤️; 8♦️; 10♣️; 5♠️; 8♠️; J♠️; Q♣️; 9♦️; 3♠️; 7❤️; Q❤️; 5♦️; 7♣️; 5❤️; Q♠️; 4♠️; 4♣️; K❤️; J♦️; 3❤️; K♣️; 9♣️; 5♣️; 2♠️"
+  }
+]
