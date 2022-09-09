@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: _docs
+  preview:
+    port: 3000
+    browser: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 4
+
+website:
+  title: "nbdev-demo-j"
+  site-url: "https://hamelsmu.github.io/nbdev-demo-j"
+  description: "A demo for Jacapo"
+  twitter-card: true
+  open-graph: true
+  repo-branch: master
+  repo-url: "https://github.com/hamelsmu/nbdev-demo-j"
+  repo-actions: [issue]
+  navbar:
+    background: primary
+    search: true
+    right:
+      - icon: github
+        href: "https://github.com/hamelsmu/nbdev-demo-j"
+  sidebar:
+    style: "floating"
+
+metadata-files: 
+  - sidebar.yml
+  - custom.yml
