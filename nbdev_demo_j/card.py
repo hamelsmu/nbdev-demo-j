@@ -21,7 +21,7 @@ class Card:
     def __lt__(self, a): return (self.suit,self.rank)<(a.suit,a.rank)
     def __gt__(self, a): return (self.suit,self.rank)>(a.suit,a.rank)
     __repr__ = __str__
-    def j(): print('hello Jacopo')
+    def j(): print('hello')
 
 # %% ../card.ipynb 9
 @patch

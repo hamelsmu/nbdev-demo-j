@@ -13,7 +13,7 @@ format:
     toc-depth: 4
 
 website:
-  title: "nbdev-demo-j"
+  title: "nbdev_demo_j"
   site-url: "https://hamelsmu.github.io/nbdev-demo-j"
   description: "A demo for Jacapo"
   twitter-card: true
